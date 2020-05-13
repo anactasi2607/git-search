@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const About = () => {
   return (
@@ -8,5 +8,5 @@ export const About = () => {
         <p className="lead">Версия приложения 1.0.0</p>
       </div>
     </div>
-  )
-}
+  );
+};

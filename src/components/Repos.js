@@ -1,15 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export const Repos = ({repos}) => (
+export const Repos = ({ repos }) => (
   <React.Fragment>
-    {repos.map(repo => (
+    {repos.map((repo) => (
       <div className="card mb-3" key={repo.id}>
         <div className="card-body">
           <h5>
-            <a
-              href={repo.html_url}
-              rel="noopener noreferrer"
-              target="_blank">
+            <a href={repo.html_url} rel="noopener noreferrer" target="_blank">
               {repo.name}
             </a>
           </h5>
@@ -17,4 +14,4 @@ export const Repos = ({repos}) => (
       </div>
     ))}
   </React.Fragment>
-)
+);
