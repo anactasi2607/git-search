@@ -88,6 +88,14 @@ export const Profile = ({ match }) => {
         </div>
       </div>
       <Repos repos={repos} />
+      <a
+        href={html_url + "?tab=repositories"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-dark mt-3 mb-4"
+      >
+        Все репозитории
+      </a>
     </Fragment>
   );
 };
